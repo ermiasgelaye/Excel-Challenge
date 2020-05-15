@@ -14,44 +14,29 @@ This project generates insights about the Kickstart My Chart dataset and defines
 
 ## Solution 
 
-* The conditional formating is conducted to fill in each cell in the "state" and "Percent Funded" column with different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live.The "Percent Funded" also is newly created to uncover how much money a campaign made to reach its initial goal.
+* The conditional formatting is conducted to fill in each cell in the "state" and "Percent Funded" column with different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live. The "Percent Funded" also is newly created to uncover how much money a campaign made to reach its initial goal.
 
 ![Conditional Formating](images/Conditional_formating1.png) ![Conditional Formating](images/Conditional_formation2.png)
 
-  * A new column P called `Average Donation`is created that uses a formula to uncover how much each backer for the project paid on average.
+  * Another column P called "Average Donation" was created that uses a formula to uncover how much each backer for the project paid on average.
 
-  * Two new columns, one called `Category` at Q and another called `Sub-Category` at R, which use formulas to split the `Category and Sub-Category` column into two part were created. 
+  * Two new columns, one called "Category" at Q and another called "Sub-Category" at R, which uses formulas to split the "Category and Sub-Category" column into two-part were created. 
 
   ![Category Stats](images/Outcome_based_on_category.PNG)
 
-  *  A pivotal table that analyzed and implimented to see the initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**.
+  *  A pivotal table was analyzed and implemented to see the initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**. In addition to that, a stacked column pivot chart that can be filtered by country based on the table has been created.
 
-  * Create a stacked column pivot chart that can be filtered by country based on the table you have created.
+  ![Subcategory Stats](images/Outcome_based_on_sub_category.PNG)
 
-  ![Subcategory Stats](Images/SubcategoryStats.PNG)
+  * A new sheet with a pivot table was created and analyzed the initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**. In addition to that, a stacked column pivot chart was created that can be filtered by country and parent-category.
 
-  * Create a new sheet with a pivot table that will analyze your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**.
-
-  * Create a stacked column pivot chart that can be filtered by country and parent-category based on the table you have created.
-
-* The dates stored within the `deadline` and `launched_at` columns use Unix timestamps. Fortunately for us, [there is a formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) that can be used to convert these timestamps to a normal date.
-
-  * Create a new column named `Date Created Conversion` that will use [this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained within `launched_at` into Excel's date format.
-
-  * Create a new column named `Date Ended Conversion` that will use [this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained within `deadline` into Excel's date format.
+* The format of dates stored within the "deadline" and "launched_at" columns was converted from Unix timestamps format into Excel's date format in to and new columns named "Date Created Conversion" and "Date Ended Conversion" were created respectively.
 
   ![Outcomes Based on Launch Date](Images/LaunchDateOutcomes.PNG)
 
-  * Create a new sheet with a pivot table with a column of `state`, rows of `Date Created Conversion`, values based on the count of `state`, and filters based on `parent category` and `Years`.
+  * A new sheet with a pivot table was created with a column of "state", rows of new sheet with a pivot table were created with a column of "state", rows of "Date Created Conversion", values based on the count of "state", and filtered based on "parent category" and "Years". Subsequently, a pivot chart line graph that visualizes this new table was created. "Date Created Conversion", values based on the count of "state", and filtered based on "parent category" and "Years". Subsequently, a pivot chart line graph that visualizes this new table was created.
 
-  * Now create a pivot chart line graph that visualizes this new table.
-
-* Create a report in Microsoft Word and answer the following questions.
-
-1. Given the provided data, what are three conclusions we can draw about Kickstarter campaigns?
-2. What are some limitations of this dataset?
-3. What are some other possible tables and/or graphs that we could create?
-
+Look for the final report  [Report](./Report.doc)
 ## Bonus
 
 * Create a new sheet with 8 columns:
