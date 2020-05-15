@@ -26,85 +26,59 @@ This project generates insights about the Kickstart My Chart dataset and defines
 
   *  A pivotal table was analyzed and implemented to see the initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**. In addition to that, a stacked column pivot chart that can be filtered by country based on the table has been created.
 
-![Subcategory Stats](images/Outcome_based_on_sub_category.Png)
+![Subcategory Stats](images/Outcome_based_on_sub_category.png)
 
   * A new sheet with a pivot table was created and analyzed the initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**. In addition to that, a stacked column pivot chart was created that can be filtered by country and parent-category.
 
 * The format of dates stored within the "deadline" and "launched_at" columns was converted from Unix timestamps format into Excel's date format in to and new columns named "Date Created Conversion" and "Date Ended Conversion" were created respectively.
 
-![Outcomes Based on Launch Date](images//LaunchDateOutcomes.png)
+![Outcomes Based on Launch Date](images/LaunchDateOutcomes.png)
 
-  * A new sheet with a pivot table was created with a column of "state", rows of new sheet with a pivot table were created with a column of "state", rows of "Date Created Conversion", values based on the count of "state", and filtered based on "parent category" and "Years". Subsequently, a pivot chart line graph that visualizes this new table was created. "Date Created Conversion", values based on the count of "state", and filtered based on "parent category" and "Years". Subsequently, a pivot chart line graph that visualizes this new table was created.
+* A new sheet with a pivot table was created with a column of "state",rows of "Date Created Conversion", values based on the count of "state", and filtered based on "parent category" and "Years". Subsequently, a pivot chart line graph that visualizes this new table was created. "Date Created Conversion", values based on the count of "state", and filtered based on "parent category" and "Years". Subsequently, a pivot chart line graph that visualizes this new table was created.
 
 Look for the final report  [Report](./Report.doc)
+
 ## Bonus
+* A new worksheet was created to compare the count of successful, failed, and canceled campaign outcomes across the goal. For this task, a "COUNTIF()" formula was used to accomplish the task. To visualize the effect a line graph was created and displayed. 
 
-* Create a new sheet with 8 columns:
-
-  * `Goal`
-  * `Number Successful`
-  * `Number Failed`
-  * `Number Canceled`
-  * `Total Projects`
-  * `Percentage Successful`
-  * `Percentage Failed`
-  * `Percentage Canceled`
-
-* In the `Goal` column, create 12 rows with the following headers:
-
-  * Less than 1000
-  * 1000 to 4999
-  * 5000 to 9999
-  * 10000 to 14999
-  * 15000 to 19999
-  * 20000 to 24999
-  * 25000 to 29999
-  * 30000 to 34999
-  * 35000 to 39999
-  * 40000 to 44999
-  * 45000 to 49999
-  * Greater than or equal to 50000
-
-  ![Goal Outcomes](Images/GoalOutcomes.PNG)
-
-* Using the `COUNTIFS()` formula, count how many successful, failed, and canceled projects were created with goals within the ranges listed above. Populate the `Number Successful`, `Number Failed`, and `Number Canceled` columns with this data.
-
-* Add up each of the values in the `Number Successful`, `Number Failed`, and `Number Canceled` columns to populate the `Total Projects` column. Then, using a mathematical formula, find the percentage of projects that were successful, failed, or canceled per goal range.
-
-* Create a line chart that graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
+![Goal Outcomes](Images/Bonus_Outcome_based_on_goal.png)
 
 ## Bonus Statistical Analysis
 
-If one were to describe a successful crowdfunding campaign, most people would use the number of campaign backers as a metric of success. One of the most efficient ways that data scientists characterize a quantitative metric, such as the number of campaign backers, is by creating a summary statistics table.
+* Statistical analysis was implemented and visualized to compare how successful, and failed campaign outcomes varied across the number of backers count. Mean, median, minimum, maximum, variance, the standard deviation was calculated. At last, the outlier test is conducted to determine whether the mean or median summarizes the data meaningfully. 
 
-For those looking for an additional challenge, you will evaluate the number of backers of successful and unsuccessful campaigns by creating **your own** summary statistics table.
+![Images/backers01.png](Images/Bonus_statistical_analysis.png)
 
-* Create a new worksheet in your workbook, and create a column each for the number of backers of successful campaigns and unsuccessful campaigns.
+## Conclusion 
 
-  ![Images/backers01.png](Images/backers01.png)
+# Conclusion 1
 
-* Use Excel to evaluate the following for successful campaigns, and then for unsuccessful campaigns:
+The Kickstarter campaign has shown a higher frequency in the theater category compared to other groups. Not only theater but entertainment in general, is the best place to get more people’s attention, in the data next to theater music and film & video is most prevalent. These may be due to theater is the best-suited place to get a lot of people at once and conduct a campaign.
 
-  * The mean number of backers.
+# Conclusion 2
 
-  * The median number of backers.
+In general, the Kickstarter campaign has greater success than failed, canceled, or live. However, the sample size is yet limited to generalize. When we come to successful campaign, music is the top. The percentage of successful music campaigns from the total is higher than the other groups. Music has a 77 % success rate followed by theater, which has a 60% success rate. Music also has a lower failed and canceled value.
 
-  * The minimum number of backers.
 
-  * The maximum number of backers.
+# Conclusion 3 
 
-  * The variance of the number of backers.
+The time serious analysis of Kickstarter campaign has shown successful result on May, however if we filter theater from the category February is the peak. This may due to summer is on the way people start to go out for entertainment or theater. In the other category the binging’s of the year are the peak it may be due to a new year resolution started to be implemented. 
 
-  * The standard deviation of the number of backers.
+## limitations of the dataset
 
-* Use your data to determine whether the mean or the median summarizes the data more meaningfully.
+* 	This dataset only includes a third of the population from more than 300,000 projects. To have a better insight, we need more samples.
+* 	The data sourced from multiple countries, and their currency, in this case, I don't get how the data normalized those currencies into one and compared the outcome.
+* The data is not normally distributed we need more samples to generalize about the data set.
+* The dataset has outliers.  For example, the outlier testing of the percent funded column has upper bound outliers. In addition to that backers count for both successful and failed campaign outcome showed upper-bound outlier. 
 
-* Use your data to determine if there is more variability with successful or unsuccessful campaigns. Does this make sense? Why or why not?
+## possible tables and/or graphs that we could create
+* Make outlier testing 
+* Creating a table and graph by excluding outliers  
+* Creating a graph that shows the campaign result quarterly, and yearly not only by month
+* Conducting some statistical analysis, creating a table and graph that shows the analysis difference across outcomes, categories and time
+* Creating a graph and table by making a comparison across different countries on the campaign being successful or failed.
+* Creating a comparison table or graph which shows average donation across campaign outcome  
 
-## Submission
-
-* To submit your homework, upload the solution and files to a GitHub repo, Dropbox, or Google Drive and submit the link to <https://bootcampspot.com/>.
 
 - - -
-
 © 2019 Trilogy Education Services
