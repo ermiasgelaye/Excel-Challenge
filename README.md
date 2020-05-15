@@ -6,19 +6,21 @@ Over $2 billion has been raised using the massively successful crowdfunding serv
 
 Getting funded on Kickstarter requires meeting or exceeding the project's initial goal, so many organizations spend months looking through past projects in an attempt to discover some trick for finding success. For this week's homework, you will organize and analyze a database of 4,000 past projects in order to uncover any hidden trends.
 
-### Before You Begin
+## Overview
 
-1. Create a new space for this project called `excel-challenge` in either DropBox or Google Drive. **Do not add this homework to an existing space**.
+This project generates insights about the Kickstart My Chart dataset and defines the outcomes by using tables, graphs, and statistical summaries
 
-2. Store your excel workbooks in here and create a sharable link for submission.
+## Solution 
 
-## Instructions
+## Solution 1.1
 
-![Kickstarter Table](Images/FullTable.PNG)
+* The conditional formation is conducted to fill in each cell in the "state" and "Percent Funded" column with different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live.
 
-Using the Excel table provided, modify and analyze the data of 4,000 past Kickstarter projects as you attempt to uncover some market trends.
+ ![Conditional Formating](Images/Conditional_formating1.PNG)
 
-* Use conditional formatting to fill each cell in the `state` column with a different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live.
+
+
+
 
   * Create a new column O called `Percent Funded` that uses a formula to uncover how much money a campaign made to reach its initial goal.
 
