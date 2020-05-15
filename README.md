@@ -47,7 +47,7 @@ Look for the final report  [Report](./Report.doc)
 
 * Statistical analysis was implemented and visualized to compare how successful, and failed campaign outcomes varied across the number of backers count. Mean, median, minimum, maximum, variance, the standard deviation was calculated. At last, the outlier test is conducted to determine whether the mean or median summarizes the data meaningfully. 
 
-![Statistical_Analysis](images//Bonus_statistical_analysis.png)
+![Statistical_Analysis](images/Bonus_statistical_analysis.png)
 
 # Conclusion 
 
