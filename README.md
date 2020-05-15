@@ -41,13 +41,13 @@ Look for the final report  [Report](./Report.doc)
 ## Bonus
 * A new worksheet was created to compare the count of successful, failed, and canceled campaign outcomes across the goal. For this task, a "COUNTIF()" formula was used to accomplish the task. To visualize the effect a line graph was created and displayed. 
 
-![Goal Outcomes](Images/Bonus_Outcome_based_on_goal.png)
+![Goal Outcomes](images/Bonus_Outcome_based_on_goal.png)
 
 ## Bonus Statistical Analysis
 
 * Statistical analysis was implemented and visualized to compare how successful, and failed campaign outcomes varied across the number of backers count. Mean, median, minimum, maximum, variance, the standard deviation was calculated. At last, the outlier test is conducted to determine whether the mean or median summarizes the data meaningfully. 
 
-![Images/backers01.png](Images/Bonus_statistical_analysis.png)
+![Statistical_Analysis](images/Bonus_statistical_analysis.png)
 
 ## Conclusion 
 
@@ -66,8 +66,8 @@ The time serious analysis of Kickstarter campaign has shown successful result on
 
 ## limitations of the dataset
 
-* 	This dataset only includes a third of the population from more than 300,000 projects. To have a better insight, we need more samples.
-* 	The data sourced from multiple countries, and their currency, in this case, I don't get how the data normalized those currencies into one and compared the outcome.
+*T his dataset only includes a third of the population from more than 300,000 projects. To have a better insight, we need more samples.
+*The data sourced from multiple countries, and their currency, in this case, I don't get how the data normalized those currencies into one and compared the outcome.
 * The data is not normally distributed we need more samples to generalize about the data set.
 * The dataset has outliers.  For example, the outlier testing of the percent funded column has upper bound outliers. In addition to that backers count for both successful and failed campaign outcome showed upper-bound outlier. 
 
