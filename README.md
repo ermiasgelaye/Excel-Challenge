@@ -8,27 +8,23 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 
 ## Overview
 
-This project generates insights about the Kickstart My Chart dataset and defines the outcomes by using tables, graphs, and statistical summaries
+This project generates insights about the Kickstart My Chart dataset and defines the outcomes by using tables, graphs, and statistical summaries.
 [Final Workbook](./excel-challenge.xlsx)
 
 
 ## Solution 
 
-## Solution 1.1
-
 * The conditional formating is conducted to fill in each cell in the "state" and "Percent Funded" column with different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live.The "Percent Funded" also is newly created to uncover how much money a campaign made to reach its initial goal.
 
 ![Conditional Formating](images/Conditional_formating1.png) ![Conditional Formating](images/Conditional_formation2.png)
 
-* Use conditional formatting to fill each cell in the `Percent Funded` column using a three-color scale. The scale should start at 0 and be a dark shade of red, transitioning to green at 100, and blue at 200.
+  * A new column P called `Average Donation`is created that uses a formula to uncover how much each backer for the project paid on average.
 
-  * Create a new column P called `Average Donation` that uses a formula to uncover how much each backer for the project paid on average.
+  * Two new columns, one called `Category` at Q and another called `Sub-Category` at R, which use formulas to split the `Category and Sub-Category` column into two part were created. 
 
-  * Create two new columns, one called `Category` at Q and another called `Sub-Category` at R, which use formulas to split the `Category and Sub-Category` column into two parts.
+  ![Category Stats](images/Outcome_based_on_category.PNG)
 
-  ![Category Stats](Images/CategoryStats.PNG)
-
-  * Create a new sheet with a pivot table that will analyze your initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**.
+  *  A pivotal table that analyzed and implimented to see the initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**.
 
   * Create a stacked column pivot chart that can be filtered by country based on the table you have created.
 
