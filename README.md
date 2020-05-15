@@ -16,7 +16,7 @@ This project generates insights about the Kickstart My Chart dataset and defines
 
 * The conditional formation is conducted to fill in each cell in the "state" and "Percent Funded" column with different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live.
 
- ![Conditional Formating](Images/Conditional_formating1)
+ ![Conditional Formating](Images/Conditional_formating1.png)
 
 
 
