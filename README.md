@@ -71,8 +71,8 @@ The time serious analysis of Kickstarter campaign has shown successful result on
 ## Possible tables and/or graphs that we could create
 * Make outlier testing 
 * Creating a table and graph by excluding outliers  
-* Creating a graph that shows the campaign result quarterly, and yearly not only by month
-* Conducting some statistical analysis, creating a table and graph that shows the analysis difference across outcomes, categories and time
+* Creating a graph that shows the campaign result quarterly, and yearly
+* Conducting some statistical analysis, creating a table and graph that shows the difference in campaign outcomes across categories and time
 * Creating a graph and table by making a comparison across different countries on the campaign being successful or failed.
 * Creating a comparison table or graph which shows average donation across campaign outcome  
 
