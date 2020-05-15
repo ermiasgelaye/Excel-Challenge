@@ -18,13 +18,13 @@ This project generates insights about the Kickstart My Chart dataset and defines
 
 ![Conditional Formating](images/Conditional_formating1.png) ![Conditional Formating](images/Conditional_formation2.png)
 
-  * Another column P called "Average Donation" was created that uses a formula to uncover how much each backer for the project paid on average.
+* Another column P called "Average Donation" was created that uses a formula to uncover how much each backer for the project paid on average.
 
-  * Two new columns, one called "Category" at Q and another called "Sub-Category" at R, which uses formulas to split the "Category and Sub-Category" column into two-part were created. 
+* Two new columns, one called "Category" at Q and another called "Sub-Category" at R, which uses formulas to split the "Category and Sub-Category" column into two-part were created. 
 
 ![Category Stats](images/Outcome_based_on_category.png)
 
-  *  A pivotal table was analyzed and implemented to see the initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**. In addition to that, a stacked column pivot chart that can be filtered by country based on the table has been created.
+*  A pivotal table was analyzed and implemented to see the initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**. In addition to that, a stacked column pivot chart that can be filtered by country based on the table has been created.
 
 ![Subcategory Stats](images/Outcome_based_on_sub_category.png)
 
@@ -49,29 +49,28 @@ Look for the final report  [Report](./Report.doc)
 
 ![Statistical_Analysis](images/Bonus_statistical_analysis.png)
 
-## Conclusion 
+# Conclusion 
 
-# Conclusion 1
+## Conclusion 1
 
 The Kickstarter campaign has shown a higher frequency in the theater category compared to other groups. Not only theater but entertainment in general, is the best place to get more people’s attention, in the data next to theater music and film & video is most prevalent. These may be due to theater is the best-suited place to get a lot of people at once and conduct a campaign.
 
-# Conclusion 2
+## Conclusion 2
 
 In general, the Kickstarter campaign has greater success than failed, canceled, or live. However, the sample size is yet limited to generalize. When we come to successful campaign, music is the top. The percentage of successful music campaigns from the total is higher than the other groups. Music has a 77 % success rate followed by theater, which has a 60% success rate. Music also has a lower failed and canceled value.
 
-
-# Conclusion 3 
+## Conclusion 3 
 
 The time serious analysis of Kickstarter campaign has shown successful result on May, however if we filter theater from the category February is the peak. This may due to summer is on the way people start to go out for entertainment or theater. In the other category the binging’s of the year are the peak it may be due to a new year resolution started to be implemented. 
 
-## limitations of the dataset
+## Limitations of the dataset
 
-*T his dataset only includes a third of the population from more than 300,000 projects. To have a better insight, we need more samples.
-*The data sourced from multiple countries, and their currency, in this case, I don't get how the data normalized those currencies into one and compared the outcome.
+* This dataset only includes a third of the population from more than 300,000 projects. To have a better insight, we need more samples.
+* The data sourced from multiple countries, and their currency, in this case, I don't get how the data normalized those currencies into one and compared the outcome.
 * The data is not normally distributed we need more samples to generalize about the data set.
 * The dataset has outliers.  For example, the outlier testing of the percent funded column has upper bound outliers. In addition to that backers count for both successful and failed campaign outcome showed upper-bound outlier. 
 
-## possible tables and/or graphs that we could create
+## Possible tables and/or graphs that we could create
 * Make outlier testing 
 * Creating a table and graph by excluding outliers  
 * Creating a graph that shows the campaign result quarterly, and yearly not only by month
