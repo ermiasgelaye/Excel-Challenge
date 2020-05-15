@@ -26,13 +26,13 @@ This project generates insights about the Kickstart My Chart dataset and defines
 
   *  A pivotal table was analyzed and implemented to see the initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**. In addition to that, a stacked column pivot chart that can be filtered by country based on the table has been created.
 
- ![Subcategory Stats](images/Outcome_based_on_sub_category.Png)
+![Subcategory Stats](images/Outcome_based_on_sub_category.Png)
 
   * A new sheet with a pivot table was created and analyzed the initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**. In addition to that, a stacked column pivot chart was created that can be filtered by country and parent-category.
 
 * The format of dates stored within the "deadline" and "launched_at" columns was converted from Unix timestamps format into Excel's date format in to and new columns named "Date Created Conversion" and "Date Ended Conversion" were created respectively.
 
- ![Outcomes Based on Launch Date](images//LaunchDateOutcomes.png)
+![Outcomes Based on Launch Date](images//LaunchDateOutcomes.png)
 
   * A new sheet with a pivot table was created with a column of "state", rows of new sheet with a pivot table were created with a column of "state", rows of "Date Created Conversion", values based on the count of "state", and filtered based on "parent category" and "Years". Subsequently, a pivot chart line graph that visualizes this new table was created. "Date Created Conversion", values based on the count of "state", and filtered based on "parent category" and "Years". Subsequently, a pivot chart line graph that visualizes this new table was created.
 
