@@ -4,9 +4,7 @@
 
 Over $2 billion has been raised using the massively successful crowdfunding service, Kickstarter, but not every project has found success. Of the more than 300,000 projects launched on Kickstarter, only a third have made it through the funding process with a positive outcome.
 
-Getting funded on Kickstarter requires meeting or exceeding the project's initial goal, so many organizations spend months looking through past projects in an attempt to discover some trick for finding success. For this week's homework, you will organize and analyze a database of 4,000 past projects in order to uncover any hidden trends.
-
-## Overview
+Getting funded on Kickstarter requires meeting or exceeding the project's initial goal, so many organizations spend months looking through past projects in an attempt to discover some trick for finding success. For this project organize and analyze a database of 4,000 past projects in order to uncover any hidden trends.
 
 This project generates insights about the Kickstart My Chart dataset and defines the outcomes by using tables, graphs, and statistical summaries.
 [Final Workbook](./excel-challenge.xlsx)
@@ -14,7 +12,7 @@ This project generates insights about the Kickstart My Chart dataset and defines
 
 ## Solution 
 
-* The conditional formatting is conducted to fill in each cell in the "state" and "Percent Funded" column with different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live. The "Percent Funded" also is newly created to uncover how much money a campaign made to reach its initial goal.
+* Conditional formatting is implimented to fill in each cell in the "state" and "Percent Funded" column with different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live. The "Percent Funded" also is newly created to uncover how much money a campaign made to reach its initial goal.
 
 ![Conditional Formating](images/Conditional_formating1.png) ![Conditional Formating](images/Conditional_formation2.png)
 
@@ -24,7 +22,7 @@ This project generates insights about the Kickstart My Chart dataset and defines
 
 ![Category Stats](images/Outcome_based_on_category.png)
 
-*  A pivotal table was analyzed and implemented to see the initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**. In addition to that, a stacked column pivot chart that can be filtered by country based on the table has been created.
+*  A pivotal table was analyzed, and implemented to see the initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**. In addition to that, a stacked column pivot chart that can be filtered by country based on the table has been created.
 
 ![Subcategory Stats](images/Outcome_based_on_sub_category.png)
 
@@ -32,7 +30,7 @@ This project generates insights about the Kickstart My Chart dataset and defines
 
 * The format of dates stored within the "deadline" and "launched_at" columns was converted from Unix timestamps format into Excel's date format in to and new columns named "Date Created Conversion" and "Date Ended Conversion" were created respectively.
 
-![Outcomes Based on Launch Date](images/LaunchDateOutcomes.png)
+![Outcomes Based on Launch Date](images/Outcome_based_on_date.png)
 
 * A new sheet with a pivot table was created with a column of "state",rows of "Date Created Conversion", values based on the count of "state", and filtered based on "parent category" and "Years". Subsequently, a pivot chart line graph that visualizes this new table was created. "Date Created Conversion", values based on the count of "state", and filtered based on "parent category" and "Years". Subsequently, a pivot chart line graph that visualizes this new table was created.
 
@@ -53,7 +51,7 @@ Look for the final report  [Report](./Report.doc)
 
 ## Conclusion 1
 
-The Kickstarter campaign has shown a higher frequency in the theater category compared to other groups. Not only theater but entertainment in general, is the best place to get more people’s attention, in the data next to theater music and film & video is most prevalent. These may be due to theater is the best-suited place to get a lot of people at once and conduct a campaign.
+The Kickstarter campaign has shown a higher frequency in the theater category compared to other groups.In the data next to theater music, film and video is most prevalent. These may be due to theater is the best-suited place to get a lot of people at once and conduct a campaign.
 
 ## Conclusion 2
 
