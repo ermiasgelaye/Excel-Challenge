@@ -14,7 +14,7 @@ This project generates insights about the Kickstart My Chart dataset and defines
 
 * Conditional formatting is implimented to fill in each cell in the "state" and "Percent Funded" column with different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live. The "Percent Funded" also is newly created to uncover how much money a campaign made to reach its initial goal.
 
-![Conditional Formating](images/Conditional_formating1.png) ![Conditional Formating](images/Conditional_formation2.png)
+![Conditional Formating](images/Conditional_formating.png)
 
 * Another column P called "Average Donation" was created that uses a formula to uncover how much each backer for the project paid on average.
 
