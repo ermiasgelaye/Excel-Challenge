@@ -18,7 +18,7 @@ This project generates insights about the Kickstart My Chart dataset and defines
 
 * Another column P called "Average Donation" was created that uses a formula to uncover how much each backer for the project paid on average.
 
-* Two new columns, one called "Category" at Q and another called "Sub-Category" at R, which uses formulas to split the "Category and Sub-Category" column into two-part were created. 
+* Two new columns, one called "Category" at Q and another called "Sub-Category" at R, which uses formulas to split the "Category and Sub-Category" column into two-part was created. 
 
 *  A pivotal table was analyzed, and implemented to see the initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**. In addition to that, a stacked column pivot chart that can be filtered by country based on the table has been created.
 
