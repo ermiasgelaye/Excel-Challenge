@@ -58,7 +58,13 @@ In general, the Kickstarter campaign has greater success than failed, canceled, 
 
 ## Conclusion 3 
 
-The time serious analysis of Kickstarter campaign has shown successful result on May, however if we filter theater from the category February is the peak. This may due to summer is on the way people start to go out for entertainment or theater. In the other category the binging’s of the year are the peak it may be due to a new year resolution started to be implemented. 
+The time serious analysis of Kickstarter campaign has shown successful result on May, however if we filter theater from the category February is the peak. This may due to summer is on the way people start to go out for entertainment or theater. In the other category the binging’s of the year are the peak it may be due to a new year resolution started to be implemented.
+
+## Conclusion 4
+The mean, Z-score, and the outlier result on the successful vs failed backers count showed that there is more variability in a successful group than the unsuccessful group. However, for both groups the data is not normally distributed, it is positively skewed (left-skewed). The probability distribution graph also looks identical to the data graph. 
+
+The median, the quartile, and outlier tests also showed an upper bound outlier for both successful and failed groups. There is higher variability in a successful group than the failed group. Based on the given data the median summarizes the data more meaningfully. 
+
 
 ## Limitations of the dataset
 
