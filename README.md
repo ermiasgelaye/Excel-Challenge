@@ -12,7 +12,7 @@ This project generates insights about the Kickstart My Chart dataset and defines
 
 ## Solution 
 
-* Conditional formatting is implimented to fill in each cell in the "state" and "Percent Funded" column with different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live. The "Percent Funded" also is newly created to uncover how much money a campaign made to reach its initial goal.
+* Conditional formatting was implimented to fill in each cell in the "state" and "Percent Funded" column with different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live. The "Percent Funded" also is newly created to uncover how much money a campaign made to reach its initial goal.
 
 ![Conditional Formating](images/Conditional_formating.png)
 
